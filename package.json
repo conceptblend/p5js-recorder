@@ -5,6 +5,7 @@
   "author": "conceptblend <the.concept.blend@gmail.com>",
   "license": "MIT",
   "main": "index.js",
+  "jsdelivr": "./dist/recorder.min.js",
   "dependencies": {
     "uglify-js": "^3.14.2"
   }
