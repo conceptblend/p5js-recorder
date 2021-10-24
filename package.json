@@ -1,0 +1,15 @@
+{
+  "name": "p5js-recorder",
+  "version": "1.0.0",
+  "repository": "https://github.com/conceptblend/p5js-recorder.git",
+  "author": "conceptblend <the.concept.blend@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "uglify-js": "^3.14.2"
+  }
+  ,
+  "scripts": {
+    "dist" : "rm ./dist/*.* && uglifyjs index.js --compress --comments -o ./dist/recorder.min.js"
+  }
+}

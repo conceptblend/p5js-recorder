@@ -1,5 +1,5 @@
 # p5js-recorder
-Record the canvas to video -- without slowing down rendering.
+Record the canvas to a WEBM video -- without slowing down rendering.
 
 ### TODO
-- [ ] Add a P5.js template file with examples
+- [x] Add a P5.js template file with examples
