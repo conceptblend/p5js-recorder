@@ -8,9 +8,9 @@ Use the following to reference the file directly from the CDN.
 ```
 
 To post changes run:
-```zsh
-yarn install
-yarn run dist
+```shell
+$ yarn install
+$ yarn run dist
 ```
 
 ### TODO
