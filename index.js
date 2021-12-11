@@ -28,10 +28,6 @@ class CanvasRecorder {
     
     let self = this;
 
-    this.mediaRecorder.ondataavailable = function(e) {
-      self.chunks.push(e.data);
-    };
-
     this.mediaRecorder.onstop = function(e) {
       var blob = new Blob(self.chunks, {
         'type': this.mimeType
